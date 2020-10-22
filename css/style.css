@@ -108,9 +108,13 @@ body {
 }
 
 .post {
-    padding: 35px 35px 0 35px;
     background-color: #fff;
     border: 1px solid #E8E8E8;
+    margin-bottom: 30px;
+}
+
+.post-body {
+    padding: 35px 35px 0 35px;
 }
 
 .post-title {
@@ -138,16 +142,25 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
-    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
 }
 
 .post-footer {
     background: #FAFAFA;
-    border: 1px solid #E8E8E8;
+    border-top: 1px solid #E8E8E8;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 35px 13px 35px;
 }
 
 .post-button .icon {
     fill: #8C8C8C;
+}
+
+.post-buttons {
+    display: flex;
+    align-items: center;
 }
 
 .post-button {
@@ -156,4 +169,40 @@ body {
     color: #8c8c8c;
     display: flex;
     align-items: center;
+    font-size: 14px;
+    line-height: 22px;
+    margin-right: 19px;
+    cursor: pointer;
+}
+
+.post-author {
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.author-avatar {
+    width: 34px;
+    height: 34px;
+    margin-left: 9px;
+    border-radius: 4px;
+}
+
+.author-username {
+    display: block;
+    color: #8C8C8C;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.post-time {
+    color: #BFBFBF;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.icon-like,
+.icon-comment {
+    margin-right: 6px;
 }
