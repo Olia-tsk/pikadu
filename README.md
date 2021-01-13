@@ -1,4 +1,5 @@
+# Pikadu
 Учебный проект Glo Academy - вёрстка аналога сайта Pikabu
 
-
-посмотреть результат по ссылке https://olia-tsk.github.io/pikadu/
+Посмотреть результат можно по ссылке <br>
+https://olia-tsk.github.io/pikadu/
